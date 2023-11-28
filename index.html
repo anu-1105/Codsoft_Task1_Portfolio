@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fa99019c95.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/AnuLogo.jpg" class = "logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi,<br> <span>I'm Annapoorna CM</span></h1>
+            </daboutiv>
+        </div>
+    </div>
+   <!--------------------------about----------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/Anu.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Highly motivated and adaptable fresher seeking an entry-level position, where I can apply my relevant skills to contribute effectively to
+                    the success and growth of the organization while gaining valuable experience and professional development.
+                    My objective is To secure a position where 
+                    I can efficiently contribute my skills and abilities for the growth of organization 
+                    and build my professional career. Currently looking for a suitable managerial position 
+                    with a reputable and exciting employer</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2023 - Current</span><br>UI/UX Design Training at ET Institute</li>
+                            <li><span>2019 - 2022</span><br>Team lead at StarApp LLC.</li>
+                            <li><span>2017 - 2019</span><br>UI/UX Design Executive at Coin Digital Ltd.</li>
+                            <li><span>2016 - 2017</span><br>Internship at Nokia.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2024</span><br>MCA from Dayananda Sagar Academy of Technology and Management</li>
+                            <li><span>2022</span><br>BCA from MES College,Chikmagalur</li>
+                            <li><span>2019</span><br>XIIth from Sri Sai Angels PU College(State)</li>
+                            <li><span>2017</span><br>Xth from Sri Sai Angels School (CBSE)</li>
+
+                        </ul>
+                    </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---------------------skills--------------->
+
+<div id="skills">
+    <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="skills-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Designing</h2>
+                    <p>Web design is the process of planning,<br> 
+                    conceptualizing, and implementing a <br>
+                    website that is functional and offers a good <br>
+                    user experience. It involves combining the <br>
+                    client's needs with useful content, <br>
+                    aesthetic elements, and a layout that <br>
+                    aids users.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Coding</h2>
+                    <p>C/C++, Java, Python are some of my coding skills.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Full stack software Development</h2>
+                    <p>Creating both Frontend and Backend of a web application.<br>
+                        The front end is usually accessed by a client, <br>
+                        and the back end forms the core of the <br>
+                        application where all the business logic is applied.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+        </div>
+    </div>
+</div>
+<!-------------projects------------->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="project-list">
+            <div class="project">
+                <img src="images/pandemic.jpeg">
+                <div class="layer">
+                    <h3>Pandemic Visualisation</h3>
+                    <p>The pandemic Visualisation is a <br>
+                        Web Application designed for <br>
+                        Chikmagalur district which helped people during <br>
+                        pandemic time. Aim of the project is to <br>
+                        save lives of people who were suffering from covid <br>
+                        by providing them essential information regarding <br>
+                        pandemic in chickmagalur district.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/pacman.jpeg">
+                <div class="layer">
+                    <h3>PacMan Game</h3>
+                    <p>In this project, we propose a game <br>
+                     called PAC MAN GAME <br>
+                    for entertainment purpose.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/quiz.jpeg">
+                <div class="layer">
+                    <h3>Quiz Application</h3>
+                    <p>"Quiz Application or Quizzila" <br>
+                        is an innovative Database Management System (DBMS) <br>
+                        project designed to enchance the <br>
+                        knowledge of the people who can test their knowledge by<br>
+                        getting their scores.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">Top <i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+</div>
+
+<!-------------------contact----------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">
+                    Contact Me
+                </h1>
+                <p><i class="fa-solid fa-paper-plane"></i>annapoornacm115@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9449674632</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/Anu88923477?t=X078BOvKRp9eRWTYcrdBnw&s=08"><i class="fa-brands fa-twitter"></i></i></a>
+                    <a href="https://www.instagram.com/Anu_Mahesh11/"><i class="fa-brands fa-instagram"></i></i></a>
+                    <a href="https://www.linkedin.com/in/annapoorna-c-m-19640327/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button> 
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Anu. <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxxM0HBr6rupgRDvOqSnqs_l_iVC6zJaLFkSzmSbwBdJQMFPfVjqGb-K6Vm4zcRY3QY4g/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
